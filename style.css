@@ -1,0 +1,22 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    background: #e6ffe6;
+    padding: 50px;
+  }
+  .container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  #leafCount {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
