@@ -1,0 +1,57 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    background: #e6ffe6;
+    padding: 50px;
+  }
+  
+  .container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  #leafCount {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .tree-wrapper {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .tree {
+    width: 100%;
+  }
+  
+  .falling-leaf {
+    position: absolute;
+    width: 30px;
+    opacity: 1;
+    animation: fall 2s ease-in-out forwards;
+  }
+  
+  @keyframes fall {
+    0% {
+      top: 80px;
+      opacity: 1;
+    }
+    100% {
+      top: 380px;
+      opacity: 0;
+      transform: translateY(50px) rotate(360deg);
+    }
+  }
