@@ -27,7 +27,7 @@ function pluckLeaf() {
 
     setTimeout(() => {
       leaf.remove();
-    }, 2000);
+    }, 100);
 
   } else {
     message.innerText = "All leaves are plucked. The tree is bare.";
