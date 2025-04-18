@@ -29,7 +29,10 @@ function pluckLeaf() {
       leaf.remove();
     }, 2000);
 
-  } else {
+  } else if {
     message.innerText = "All leaves are plucked. The tree is bare.";
   }
+ else {
+message.innertext= "kjsdfsdfdfs";
+ }
 }
