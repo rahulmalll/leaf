@@ -1,4 +1,4 @@
- let leaves = 9999999;
+ let leaves = 99;
 
 function pluckLeaf() {
   const leafCount = document.getElementById("leafCount");
